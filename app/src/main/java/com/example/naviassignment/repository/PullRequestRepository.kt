@@ -25,7 +25,7 @@ val retrofit = Retrofit.Builder()
 interface PullRequestRepository {
 
     @Headers(
-        "Authorization: token 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",
+        "Authorization: token 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",
         "Accept: application/vnd.github+json"
     )
     @GET("repos/octocat/Hello-World/pulls?state=closed")
